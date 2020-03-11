@@ -154,9 +154,8 @@ var population;
 
 function setup() {
   // target = "to be or not to be";
-  // target = "Neuro Evolution Machine Learning Shakespeare Monkey Example";
-  // target = "Feel pain, think about pain, accept pain, know pain... Shinra Tensei!";
-  target = "For I believe the one who truly understands, and would know what to say to Obito is you, his friend... Kakashi.";
+  target = "Neuro Evolution Machine Learning Shakespeare Monkey Example";
+  // target = "Batuhan Öztürk";
   maxPop = 200;
   mutationRate = 0.01;
   population = new Population(target, maxPop, mutationRate);
